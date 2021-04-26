@@ -6,17 +6,17 @@ Two-ply binds your HTML to your JS state using one vanilla JS function `bind` an
 
 ## Install
 
-**From CDN:**
+**CDN:**
 ```html
 <script src="https://cdn.jsdelivr.net/npm/twoply@0.1.0/src/index.min.js" defer></script>
 ```
 
-**From npm:**
+**NPM:**
 ```js
 npm i twoply
 ```
 
-Include it in your script.
+**Import:**
 ```js
 import {bind} from 'twoply'
 ```
