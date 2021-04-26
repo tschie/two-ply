@@ -35,7 +35,7 @@ bind(document, {
 })
 ```
 
-In your HTML, list bindings between element fields and state fields.
+In your HTML, list bindings between element fields and state fields:
 
 ```html
 <button data-bind="innerText:value onclick:increment"></button>
