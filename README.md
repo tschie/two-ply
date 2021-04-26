@@ -1,6 +1,6 @@
 # two-ply
 
-![npm version](https://img.shields.io/npm/v/twoply)
+![npm version](https://img.shields.io/npm/v/two-ply)
 
 Two-ply binds your HTML to your JS state using one vanilla JS function `bind` and one data attribute `data-bind`.
 
@@ -8,15 +8,15 @@ Two-ply binds your HTML to your JS state using one vanilla JS function `bind` an
 
 **CDN:**
 ```html
-<script src="https://cdn.jsdelivr.net/npm/twoply@0.1.0/src/index.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/two-ply@0.1.0/src/index.min.js" defer></script>
 ```
 
 **NPM:**
 ```js
-npm i twoply
+npm i two-ply
 ```
 
 **Import:**
 ```js
-import {bind} from 'twoply'
+import {bind} from 'two-ply'
 ```
