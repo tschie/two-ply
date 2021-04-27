@@ -2,7 +2,12 @@
 
 ![npm version](https://img.shields.io/npm/v/two-ply)
 
-Two-ply binds your HTML to your JS state using one vanilla JS function `bind` and one data attribute `data-bind`.
+Two-ply aims to be the simplest way to create reactive, state-driven web pages _without_
+- the overhead of a JS framework
+- virtual DOM
+- another template language
+- logic in HTML
+- imperative DOM API 
 
 ## Install
 
@@ -85,9 +90,10 @@ function counter(el) {
 
 ## Examples
 
-**Dropdown**
-
-```html
+<details>
+  <summary>Dropdown</summary>
+  
+  ```html
 <section data-bind="dropdown">
     <h3>Dropdown</h3>
     <div style="position: relative">
@@ -117,10 +123,12 @@ const toggle = (initState, state) => ({
   ...state(initState)
 })
 ```
+</details>
 
-**Todo list**
-
-```html
+<details>
+  <summary>Todo list</summary>
+  
+  ```html
 <section data-bind="todo">
     <h3>Todo</h3>
     <input
@@ -169,3 +177,4 @@ function todo(el) {
   })
 }
 ```
+</details>
